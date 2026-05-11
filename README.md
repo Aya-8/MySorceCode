@@ -14,4 +14,4 @@
 
 ## ソースコード
 
-ゲーム内のスクリプトは `Scripts/Scripts` にまとめています。
+ゲーム内のスクリプトは `GakushokuGame/Scripts` にまとめています。
