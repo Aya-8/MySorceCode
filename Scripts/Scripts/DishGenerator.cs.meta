@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1496dcf4d9e2ce14fb0cf16da55730e8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - katsuPrefab: {fileID: 4567453773379356919, guid: 0907a39069f475e43bae9fdfb52a9743, type: 3}
+  - saradaPrefab: {fileID: 5274437456954215049, guid: f73405427d6517b4ea35dfe699e97dfe, type: 3}
+  - curryPrefab: {fileID: 5531438180184367509, guid: 7542fbd7991d7794691f51c6b4219476, type: 3}
+  - ramenPrefab: {instanceID: 0}
+  - MisosoupPrefab: {fileID: 8372604631833564962, guid: 353adbab01294ba4fbb54ace71011bd2, type: 3}
+  - sobaPrefab: {fileID: 5213367009242061961, guid: 8984c04eaffed794b97508860285a99b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
