@@ -32,7 +32,3 @@
 - `Controller/View/PowderController.cs`: 開始前シーケンスに合わせて、粉を入れるアニメーションとパーティクルを再生します。
 - `Controller/View/SliderController.cs`: 正しい入力回数に応じてスライダーを増加させ、終了時に最大値まで進める演出を行います。
 - `Controller/View/UIController.cs`: 説明表示、粉投入、カウントダウン、開始通知などの開始前 UI シーケンスを管理します。
-
-## 元プロジェクト内の場所
-
-- `Assets/Kapuro2025Winter/Scripts/Stiring`

@@ -16,8 +16,3 @@
 
 - `StarRotatingAnimation.cs`: 敵エフェクトの星回転アニメーション関連
 - `PlayerV2MeltShaderSubView.cs`: 主人公のチョコの固体、液体、ムース状態の変形の遷移を滑らかにつなぐ処理
-
-## 元プロジェクト内の場所
-
-- `Assets/C#/Effects/Enemy/StarRotatingAnimation.cs`
-- `Assets/C#/PlayerV2/Presentation/SubViews/PlayerV2MeltShaderSubView.cs`
