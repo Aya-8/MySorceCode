@@ -1,15 +1,34 @@
-# PuddingGame
+# プルプルプリン
 
-インターンシップ応募用に、PuddingGame で自分が書いたソースコードをまとめたフォルダです。
+インターンシップ応募用に、プルプルプリンで自分が書いたスクリプトをまとめたフォルダです。
+
+## 使用技術
+
+- Unity
+- C#
+- UniTask
+- DOTween
+
+## 担当範囲
+
+- プリンの主人公のプルプル感を表現するため、メッシュの頂点を操作する処理
+- プリンを操作する Controller の実装
+- プリンが攻撃する・攻撃されたときの演出
+- プリンの移動、状態管理、見た目のアニメーション関連
 
 ## 収録内容
 
 - `Visual`: プリンの見た目、アニメーション、リアクション演出関連
 - `Movement`: プリンの移動、重力、ポーズ、破壊処理関連
 - `Common/ControllerKey.cs`: コントローラー入力関連
+- `PuddingMoveInput.cs`: プリンの移動入力関連
+- `Status`: プリンの状態管理関連
 
 ## 元プロジェクト内の場所
 
 - `Assets/Scripts/pudding/Visual`
 - `Assets/Scripts/pudding/Movement`
+- `Assets/Scripts/pudding/PuddingMoveInput.cs`
 - `Assets/Scripts/Common/ControllerKey.cs`
+- `Assets/Scripts/Status/PuddingStatusChanger.cs`
+- `Assets/Scripts/Status/PuddingStatus.cs`
