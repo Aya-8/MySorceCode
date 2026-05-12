@@ -1,9 +1,7 @@
-# Access to your 5Girls
-
-インターンシップ応募用に、Access to your 5Girls で自分が書いたスクリプトをまとめたフォルダです。
+# Access to your 5Girls❤❤❤❤❤
+Access to your 5Girls で自分が書いたスクリプトをまとめたフォルダです。
 
 ## 使用技術
-
 - Unity
 - C#
 - QFramework
