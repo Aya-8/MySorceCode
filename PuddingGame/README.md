@@ -14,6 +14,7 @@
 - プリンの主人公のプルプル感を表現するため、メッシュの頂点を操作する処理
 - プリンを操作する Controller の実装
 - プリンが攻撃する・攻撃されたときの演出
+- アイテムの出現、演出処理の実装
 - プリンの移動、状態管理、見た目のアニメーション関連
 
 ## 収録内容
@@ -23,6 +24,7 @@
 - `Common/ControllerKey.cs`: コントローラー入力関連
 - `PuddingMoveInput.cs`: プリンの移動入力関連
 - `Status`: プリンの状態管理関連
+- `Item`: アイテムの出現、演出処理関連
 
 ## 元プロジェクト内の場所
 
@@ -32,3 +34,4 @@
 - `Assets/Scripts/Common/ControllerKey.cs`
 - `Assets/Scripts/Status/PuddingStatusChanger.cs`
 - `Assets/Scripts/Status/PuddingStatus.cs`
+- `Assets/Scripts/Item`
