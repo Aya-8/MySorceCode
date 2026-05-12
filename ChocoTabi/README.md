@@ -7,6 +7,11 @@
 - Unity
 - C#
 
+## 担当範囲
+
+- 敵のスタン状態時に出すモデルのアニメーション
+- 主人公のチョコの滑らかな変形に使う、ShaderGraph で作成したマテリアルの変数を操作する処理
+
 ## 収録内容
 
 - `StarRotatingAnimation.cs`: 敵エフェクトの星回転アニメーション関連
@@ -15,3 +20,4 @@
 ## 元プロジェクト内の場所
 
 - `Assets/C#/Effects/Enemy/StarRotatingAnimation.cs`
+- `Assets/C#/PlayerV2/Presentation/SubViews/PlayerV2MeltShaderSubView.cs`

@@ -16,13 +16,13 @@
 
 ランダムに決まった所持金ギリギリまで、流れてくる学食の料理を選んで取るミニゲームです。
 
-## スクリプト
+## 収録内容
 
-- `ScoreManager.cs`
-- `MoneyGenerator.cs`
-- `MenuShow.cs`
-- `GameDirector.cs`
-- `ResultGenerator.cs`
-- `PlayerController.cs`
-- `DishGenerator.cs`
-- `DishController.cs`
+- `ScoreManager.cs`: 所持金、使用金額、最終結果を保持する管理クラス。料理ごとの金額加算やリザルト用の金額確定を行います。
+- `MoneyGenerator.cs`: ゲーム開始時の所持金をランダムに決定し、表示と効果音、メニュー画面への遷移を制御します。
+- `MenuShow.cs`: ルール確認画面の表示、難易度選択、ゲームシーンへの遷移を管理します。
+- `GameDirector.cs`: メインゲーム中の制限時間を管理し、時間切れ時にスコアを確定してリザルト画面へ遷移します。
+- `ResultGenerator.cs`: 初期所持金、使用金額、残金を順番に表示し、残金に応じた評価メッセージを出します。
+- `PlayerController.cs`: クリックによるプレイヤー操作と、料理を取ったときの当たり判定・スコア反映を行います。
+- `DishGenerator.cs`: 難易度に応じて料理の出現間隔と移動速度を調整し、料理をランダムに生成します。
+- `DishController.cs`: 生成された料理を横方向に流し、画面外に出た料理を削除します。
